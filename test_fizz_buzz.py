@@ -16,7 +16,6 @@ def fizz_buzz(arg: int):
         return "FizzBuzz"
 
 
-
 def test_fizz_buzz():
     assert fizz_buzz(-3) == "Fizz buzz failed"
     assert fizz_buzz(2) == 2
